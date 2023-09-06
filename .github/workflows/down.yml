@@ -8,7 +8,7 @@ jobs:
   rundownload:
     name: "rundownload"
     runs-on: ubuntu-latest
-
+    steps:
     - name: get finalshell_linux.zip
       run: |
         curl -o finalshell_linux.zip http://dl.hostbuf.com/finalshell2/finalshell_linux.zip
