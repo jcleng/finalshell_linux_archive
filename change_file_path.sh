@@ -25,10 +25,10 @@ done
 find FinalShell -type f -exec chmod 644 {} \;
 find FinalShell -type d -exec chmod 755 {} \;
 
-chmod -R 755 FinalShell/lib/runtime/lib/classlist
-chmod -R 755 FinalShell/lib/runtime/lib/jexec
-chmod -R 755 FinalShell/lib/runtime/lib/jspawnhelper
-chmod -R 755 FinalShell/lib/runtime/lib/modules
-chmod -R 755 FinalShell/lib/runtime/lib/security/cacerts
+sudo chmod -R 755 FinalShell/lib/runtime/lib/classlist
+sudo chmod -R 755 FinalShell/lib/runtime/lib/jexec
+sudo chmod -R 755 FinalShell/lib/runtime/lib/jspawnhelper
+sudo chmod -R 755 FinalShell/lib/runtime/lib/modules
+sudo chmod -R 755 FinalShell/lib/runtime/lib/security/cacerts
 
-chmod 755 FinalShell/bin/FinalShell
+sudo chmod 755 FinalShell/bin/FinalShell
