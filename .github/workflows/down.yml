@@ -2,7 +2,7 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-    - cron:  '22 16 15 * *'
+    - cron:  '22 16 * * 2,4'
 name: get file
 jobs:
   rundownload:
